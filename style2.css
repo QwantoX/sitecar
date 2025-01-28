@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #be6e6e;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.main1{
+    padding-top: 51px;
+    width: 100%;
+    height: 1029px;
+    background: #3fc24a;
+    background-image: url(/img/Rectangle\ 5.png);
+}
+.shadow1{
+    width: 1430px;
+    height: 250px;
+    margin-bottom: 53px;
+    background: linear-gradient(107.5deg, rgba(0, 0, 0, 0.49) -47.57%, rgba(136, 136, 136, 0.447625) -5.04%, rgba(3, 3, 3, 0.56) 5.82%, rgba(16, 13, 13, 0.56) 77.09%, rgba(0, 0, 0, 0) 80.41%);
+}
+.main1-title{
+    padding-left: 50px;
+    padding-top: 19px;
+    margin-left: 50px;
+    color: #E1DCDC;
+    font-family: Plaster;
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 110px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.shadow{
+    width: 1350px;
+    height: 128px;
+    background-image: url(/img/Rectangle\ 7.png);
+    padding-left: 240px;
+}
+.a{
+    padding-top: 9px;
+    margin-bottom: 7px;
+}
+.b{
+    padding-top: 7px;
+    margin-bottom: 19px;
+}
+.c{
+    padding-top: 12px;
+    margin-bottom: 21px;
+}
+.d{
+    padding-top: 10px;
+}
+.title-info{    
+    width: 787px;
+    color: #FFFFFF;
+    font-family: Pontano Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.main2{
+    width: 1440px;
+    height: 1029px;
+    background-image: url(/img/Rectangle\ 11.png);
+}
+.main2-shadow{
+    background-image: url(/img/Rectangle\ 12.png);
+    width: 1440px;
+    height: 699.5px;
+}
+.main2-title-info{
+    padding-left: 88px;
+    padding-top: 31px;
+    width: 1263px;
+    height: 243px;
+    color: #E1DCDC;
+    font-family: Plaster;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 67.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.main-button{
+    margin-left: 674px;
+    margin-top: 133.5px;
+}
+button{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 72px;
+    font-family: Red Rose;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.98px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 180px;
+    height: 72px;
+    gap: 0px;
+    border-radius: 43px 43px 43px 43px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #CDA576C2;
+
+}

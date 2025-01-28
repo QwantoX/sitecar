@@ -1,11 +1,12 @@
 body{
-    margin: 0;
+    margin: 0 auto;
 }
 
 .main1p {
+    margin: 0 auto;
     width: 1440px;
     height: 1000px;
-    background-image: url(/carvs.jpg);
+    background-image: url(/img/carvs.jpg);
     background-size: cover;
     display: flex;
 }
@@ -73,7 +74,7 @@ p{
 }
 
 .symvol{
-    background: url(/symvol.png);
+    background: url(/img/symvol.png);
     width: 475px;
     height: 249px;
     background-size: cover;
