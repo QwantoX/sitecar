@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Plaster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap);  
+body {
+    font-family: "Pontano Sans", sans-serif;
+}
+body {
+    font-family: "Plaster", display;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.choosePorshe {
+    width: 1447px;
+    height: 1098px;
+    flex-shrink: 0;
+    position: relative;
+    margin: 0 auto;
+    background: linear-gradient(
+            124deg,
+            rgba(28, 25, 25, 0.86) 31.08%,
+            rgba(136, 136, 136, 0.38) 59.22%,
+            rgba(28, 25, 25, 0) 72.86%
+        ),
+        url(Rectangle\ 13.png);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.choosePorshe h1 {
+    width: 1263px;
+    height: 58.343px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Plaster;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block-text {
+    width: 787px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 126px;
+}
+
+.block-text p {
+    color: #fff;
+    font-family: "Pontano Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    width: 180px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background: rgba(205, 165, 118, 0.76);
+}
+
+button p {
+    width: 143px;
+    height: 49px;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
