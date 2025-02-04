@@ -3,65 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Red+Rose:wght@300..700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Pompiere&family=Red+Rose:wght@300..700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Plaster&family=Pompiere&family=Red+Rose:wght@300..700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Plaster&family=Pompiere&family=Pontano+Sans:wght@300..700&family=Red+Rose:wght@300..700&display=swap">
-    <link rel="stylesheet" href="style2.css">
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        .background {
+            background: url(https://s3-alpha-sig.figma.com/img/d552/7a31/ce742aa0739006a6c3b1e8b4bac8bc4b?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jz2DzMW1pc~5oL0NBDDovimz-34-1J4wWLlethSfFGaPMJjJUazUnVQgmlu3yeofVx9d7vapm4UPNfzHGfKP9HTfyjnsmxgBFyqj6fqNLzTHnd1axp9VshXsJIyspF0VYC6tof~DaK7WSXmKzda59spkgbcDU9cohoapbAaLldCcz-xZjzQ8Yz22c6YltZOegy9G8VA94YyRfNw22B05n~ac1Py~HCyGxrVfOF7Mm5AGN-Yo01MDeAzqzHY0yO9pngAMr04-bgdW-pp7r0BfenpkI60NKTBRzv4JY8ho0zUBEuqwe22dD1Xt19iftpviziFeoxMEnGl5mYOGgpZauA__) no-repeat center center/cover;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: left;
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .contact-info ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .contact-info ul ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+
+        .contact-info ul ul ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        .address {
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <div class="main1p">
-        <div class="aaa">
-            <ul class="ulp1">
-                <div class="uld">
-                    <li class="li li1"><a class='lia lia1' href="#">Home</a></li>
-                    <li class="li li2"><a class='lia lia2' href="#">About</a></li>
-                    <li class="li li3"><a class='lia lia3' href="#">Special</a></li>
-                    <li class="li li4"><a class='lia lia4' href="#">Sales</a></li>
-                    <li class="li li5"><a class='lia lia5' href="#">Contact</a></li>
-                </div>
-            </ul>
-        </div>
-        <div class="textp">
-            <p class="porsche">PORSCHE</p>
-            <p class="porsche911">911</p>
-        </div>
-        <div class="aaa">
-            <div class="symvol"></div>
-            <div class="abtpr">
-            <p class="abtprp">The Porsche 911 is a legendary sports car that has captured the hearts of automotive enthusiasts for decades. Introduced in 1964 by the German automaker Porsche, the 911 has become an iconic symbol of high-performance and precision engineering. It has gone through numerous iterations and updates over the years, but its fundamental design principles have remained remarkably consistent, making it instantly recognizable on the road.</p></div>
-            <button class="more">Know More</button>
-        </div>
-        
-    </div>
-    <div class="container">
-        <div class="main1">
-            <div class="shadow1">
-                <h1 class="main1-title">why PORSCHE 911 is the best car ?</h1>
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Contact Us</h1>
+            <p>Welcome to the Porsche Dealership and Service Center Contact Page. Your connection to Porsche excellence starts here. We are dedicated to providing top-notch customer service and support for all your Porsche needs. Whether you're interested in purchasing a new Porsche, scheduling maintenance for your current Porsche vehicle, or have any questions or feedback, our team is here to assist you.</p>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><strong>Sales Department:</strong>
+                        <ul>
+                            <li>Phone: (555) 123-4567444</li>
+                            <li>Email: sales@demoporschedealership.com</li>
+                            <li>Hours of Operation:
+                                <ul>
+                                    <li>Monday to Friday: 9:00 AM - 7:00 PM</li>
+                                    <li>Saturday: 10:00 AM - 5:00 PM</li>
+                                    <li>Sunday: Closed</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Service and Maintenance:</strong>
+                        <ul>
+                            <li>Phone: (555) 789-01234545</li>
+                            <li>Email: service@demoporschedealership.com</li>
+                            <li>Hours of Operation:
+                                <ul>
+                                    <li>Monday to Friday: 8:00 AM - 6:00 PM</li>
+                                    <li>Saturday: 9:00 AM - 4:00 PM</li>
+                                    <li>Sunday: Closed</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>General Inquiries:</strong>
+                        <ul>
+                            <li>Phone: (555) 234-567814</li>
+                            <li>Email: info@demoporschedealership.com</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <p class="address">Address: Porsche Dealership, 123 Porsche Drive, Cityville, State 123452, USA</p>
             </div>
-            
-            <div class="shadow a">
-                <p class="title-info">Timeless Design: The 911 is known for its distinctive silhouette, characterized by its sloping roofline, round headlamps, and curvaceous rear end. Its design has evolved over the years, but it maintains its classic and instantly recognizable look.</p>                
-            </div>
-            <div class="shadow b">
-                <p class="title-info">Rear-Engine Layout: One of the most defining features of the 911 is its rear-engine layout, which contributes to its exceptional handling and balance. The engine is positioned behind the rear axle, giving the car superb traction and stability.</p>
-            </div>
-            <div class="shadow c">
-                <p class="title-info">Performance: Porsche offers a range of performance options for the 911, from the base model to high-performance variants like the Carrera S, GT3, and Turbo. These cars are known for their exhilarating acceleration, precise steering, and impressive cornering capabilities.</p>
-            </div>
-            <div class="shadow d">
-                <p class="title-info">Interior Comfort: Despite its sporty nature, the Porsche 911 offers a well-appointed interior with high-quality materials, comfortable seats, and advanced technology features. It's often considered a practical and comfortable sports car for daily driving.</p>
-            </div>
-        </div>
-        <div class="main2">
-            <div class="main2-shadow">
-                <h1 class="main2-title-info">Paint to Sample (PTS) program</h1>
-            </div>
-            
-            <button class="main-button">Explore</button>
         </div>
     </div>
 </body>
