@@ -11,6 +11,88 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Plaster&family=Pompiere&family=Red+Rose:wght@300..700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Plaster&family=Pompiere&family=Pontano+Sans:wght@300..700&family=Red+Rose:wght@300..700&display=swap">
     <link rel="stylesheet" href="style2.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        .background {
+            background: url(https://s3-alpha-sig.figma.com/img/d552/7a31/ce742aa0739006a6c3b1e8b4bac8bc4b?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jz2DzMW1pc~5oL0NBDDovimz-34-1J4wWLlethSfFGaPMJjJUazUnVQgmlu3yeofVx9d7vapm4UPNfzHGfKP9HTfyjnsmxgBFyqj6fqNLzTHnd1axp9VshXsJIyspF0VYC6tof~DaK7WSXmKzda59spkgbcDU9cohoapbAaLldCcz-xZjzQ8Yz22c6YltZOegy9G8VA94YyRfNw22B05n~ac1Py~HCyGxrVfOF7Mm5AGN-Yo01MDeAzqzHY0yO9pngAMr04-bgdW-pp7r0BfenpkI60NKTBRzv4JY8ho0zUBEuqwe22dD1Xt19iftpviziFeoxMEnGl5mYOGgpZauA__) no-repeat center center/cover;
+            height: 1010px;
+            width: 1440px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: left;
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .contact-info ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .contact-info ul ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+
+        .contact-info ul ul ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        .address {
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
     <div class="main1p">
@@ -62,6 +144,61 @@
             </div>
             
             <button class="main-button">Explore</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Contact Us</h1>
+            <p>Welcome to the Porsche Dealership and Service Center Contact Page. Your connection to Porsche excellence starts here. We are dedicated to providing top-notch customer service and support for all your Porsche needs. Whether you're interested in purchasing a new Porsche, scheduling maintenance for your current Porsche vehicle, or have any questions or feedback, our team is here to assist you.</p>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><strong>Sales Department:</strong>
+                        <ul>
+                            <li>Phone: (555) 123-4567444</li>
+                            <li>Email: sales@demoporschedealership.com</li>
+                            <li>Hours of Operation:
+                                <ul>
+                                    <li>Monday to Friday: 9:00 AM - 7:00 PM</li>
+                                    <li>Saturday: 10:00 AM - 5:00 PM</li>
+                                    <li>Sunday: Closed</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Service and Maintenance:</strong>
+                        <ul>
+                            <li>Phone: (555) 789-01234545</li>
+                            <li>Email: service@demoporschedealership.com</li>
+                            <li>Hours of Operation:
+                                <ul>
+                                    <li>Monday to Friday: 8:00 AM - 6:00 PM</li>
+                                    <li>Saturday: 9:00 AM - 4:00 PM</li>
+                                    <li>Sunday: Closed</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>General Inquiries:</strong>
+                        <ul>
+                            <li>Phone: (555) 234-567814</li>
+                            <li>Email: info@demoporschedealership.com</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <p class="address">Address: Porsche Dealership, 123 Porsche Drive, Cityville, State 123452, USA</p>
+            </div>
         </div>
     </div>
 </body>
