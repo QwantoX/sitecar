@@ -34,7 +34,7 @@ body {
             rgba(136, 136, 136, 0.38) 59.22%,
             rgba(28, 25, 25, 0) 72.86%
         ),
-        url(Rectangle\ 13.png);
+        url(/img/aa.png);
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,6 +60,9 @@ body {
     width: 787px;
     height: 350px;
     display: flex;
+    padding: 10px 0 0 0;
+    /* position: absolute;
+    top: 50px; */
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
@@ -73,6 +76,7 @@ body {
     font-family: "Pontano Sans";
     font-size: 16px;
     font-style: normal;
+    padding: 0 0 -10px 0;
     font-weight: 400;
     line-height: normal;
 }
